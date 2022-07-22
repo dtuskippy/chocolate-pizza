@@ -37,12 +37,63 @@ body main h2 {
 
 #pizza-img {
   width:auto;
+}
 
+#print-icon{
+  float: right;
+  margin-right: 
 }
 
 .para-three {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   width: 900px;
+  text-indent: 30px;
 }
+
+.recipe-list {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.recipe-text {
+  position: absolute;
+  top: 130%;
+  left: 68%;
+  transform: translate(-160%, -40%);
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  padding-top: 4%;
+  margin-left: 2%;          
+  line-height: 22px;
+}
+
+ul li {
+  list-style-type: square;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#authorPic{
+  float: left;
+}
+
+h3 p {
+  margin-top: ;
+}
+
+#lower-line{
+  display: flexbox;
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat;
   
+  align-items: center;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  color:rgb(182, 182, 182)
+}
